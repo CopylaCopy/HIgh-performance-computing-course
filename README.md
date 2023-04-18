@@ -1,1 +1,1 @@
-# HIgh-performance-computing-course
+# High performance computing course
