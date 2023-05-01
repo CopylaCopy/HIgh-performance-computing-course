@@ -2,7 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+./MPI/text
+./MPI/out_auto.txt
+./.vscode/
+./MPI/cellular_automata_fixed.cpp
+./MPI/cellular_automata_fixed.cpp
 # C extensions
 *.so
 .DS_Store
