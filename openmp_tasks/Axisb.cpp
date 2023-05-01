@@ -17,8 +17,8 @@ void CreateMatrix(double * A, double* x_true, double* b, double* x, int N){
     for (int i = 0; i < N; ++i) {
         double sum = 0;
         for (int j = 0; j < N; ++j) {
-        A[i * N + j] = dist(gen);
-        sum += 2 * abs(A[i * N + j]);  // making matrix diagonally dominant
+            A[i * N + j] = dist(gen);
+            sum += 2 * abs(A[i * N + j]);  // making matrix diagonally dominant
         }
         A[i * N + i] += sum;
     }
